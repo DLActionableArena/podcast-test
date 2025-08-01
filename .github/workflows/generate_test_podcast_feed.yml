@@ -2,7 +2,6 @@ name: Generate Podcasts feeds
 on:
   push:  
     branches: ['main']
-  workflow_dispatch:
 
 jobs:
   build:
